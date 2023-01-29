@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.wrapper{
+    width: 1100px;
+    height: 500px;
+    background-image: url(../img/john-wick.jpg);
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+.inp{
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #fff;
+    width: 380px;
+    background-color: transparent;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    margin-left: 120px;
+}
+.button{
+    margin-left: 140px;
+    border: none;
+    padding: 5px 5px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+.movie__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.movie__list li{
+    margin: 10px 10px;
+    line-height: 1.4;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 70%;
+}
+.hero{
+    margin-top: 110px;
+    margin-left: 85px;
+}
+.moviebox{
+    margin-left: 90px;
+    font-size: 25px;
+    color: white;
+}
+.card__inner{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pagenation__list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow-y: auto;
+}
+.pagenation__list button{
+    margin: 5px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.tittle{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 190px;
+    color: white;
+    line-height: 1.2;
+}
+.btn{
+    background-color: yellow;
+    padding: 2px 2px;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.num{
+    font-size: 10px;
+    color: white;
+}
+.title1{
+    width: 340px;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+.hero__btn{
+    padding: 5px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.select{
+    padding: 3px 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #000;
+}
+.rating{
+    padding: 3px 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #000;
+}
+.inp2{
+    width: 200px;
+    border: none;
+    border: 2px solid #000;
+    padding: 3px 3px;
+    border-radius: 5px;
+}
