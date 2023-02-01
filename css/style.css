@@ -5,21 +5,17 @@
 }
 .container{
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1100px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 .form{
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-.form1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 10px;
 }
 .wrapper{
-    width: 1100px;
+    width: 1140px;
     height: 500px;
     background-image: url(../img/john-wick.jpg);
 }
@@ -61,11 +57,12 @@
 }
 
 .card{
-    width: 200px;
-    height: 300px;
+    width: 195px;
+    height: 350px;
     border: 1px solid #000;
     border-radius: 5px;
     overflow: hidden;
+    line-height: 1;
 }
 .card img{
     width: 100%;
@@ -107,6 +104,9 @@
     width: 190px;
     color: white;
     line-height: 1.2;
+}
+.titlee{
+    font-size: 20px;
 }
 .btn{
     background-color: yellow;
@@ -167,4 +167,35 @@
     height: 25px;
     background-color: green;
     border-radius: 15px;
+}
+.select__year{
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.select__rating{
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.select__category{
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+
+.test{
+    background-color: red;
+    border: none;
+    border: 1px solid #000;
+    color: white;
+    border-radius: 5px;
+}
+.like__btn{
+   color: red;
+   padding-top: 0;
 }
